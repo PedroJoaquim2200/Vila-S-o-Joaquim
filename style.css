@@ -7,27 +7,62 @@ header{
     display: flex;
     background-color: #791946;
     align-items: center;
+    /* gap: 50px; */
+    justify-content: space-between;
 }
 nav{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    gap: 40px;
 }
 .Buscar{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;*/
+    gap: 40px; 
+    align-self: flex-end;
+    align-items: center;
     
     
 }
 .Links{
     display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
 .Links li a{
     color: #ffffff;
     text-decoration: none;
+    font-size: 1.2em;
 }
 .Links li{
 list-style: none;
 
 }
+
+.Buscar img{
+    width: 10%;
+}
+
+.Buscar div {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+}
+
+        .Buscar div input{
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: none;
+            background: #D9D9D9;
+        } 
+
+        .Buscar div img{
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            border: none;
+            background: #D9D9D9;
+        }
